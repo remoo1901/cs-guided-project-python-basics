@@ -15,4 +15,8 @@ Notes:
 """
 def get_discounts(nums, percentage):
     # Your code here
+    for i in nums:
+        x = nums[i] * percentage
+    return x    
 
+print(get_discounts([2, 4, 6, 11], "50%"))
